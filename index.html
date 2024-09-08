@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BATBANCO DE DADOS</title>
+</head>
+
+<body>
+    <!--Título da página-->
+    <header>
+        <h1>DADOS DE HERÓIS (TERRA-38)</h1>
+        <h4>Bem-vindo, Batman. Acesso autorizado.</h4>
+    </header>
+</body>
+
+<main>
+    <section>
+        <div class="caixaPesquisa">
+            <input type="text" placeholder="Buscar por nome de herói, civil ou organização." id="campo-pesquisa"> <!--Caixa de pesquisa-->
+            <button onclick="pesquisar()">Pesquisar</button> <!--Botão da caixa de pesquisa-->
+        </div>
+    </section>
+
+    <!--Resultado da pesquisa-->
+    <section class="resultados-pesquisa" id="resultados-pesquisa">
+</main>
+
+<!--Rodapé da página-->
+<footer>
+    <p>Todos os personagens da DC Comics e referências são propriedades da © DC Comics WB SHIELD: TM & © WBEI. (s24)<br>
+        Projeto desenvolvido por Kyan Graziano Yamada para a Imersão Dev com Google Gemini da Alura. Para entrar em
+        contato me envie um <a href="mailto:kyangyamada@gmail.com">e-mail</a>.</p>
+</footer>
+
+<!--Arquivos JavaScript-->
+<script src="herois.js"></script>
+<script src="app.js"></script>
+
+</html>
