@@ -44,6 +44,8 @@ h4 {
     letter-spacing: 0.2rem;
     /* Espaçamento entre letras */
     padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
 }
 
 /* Estiliza as seções da página */
@@ -56,6 +58,7 @@ section {
     /* Centraliza os itens horizontalmente */
     margin-bottom: 3rem;
     /* Espaçamento abaixo de cada seção */
+    position: relative;
 }
 
 /* Estiliza a caixa de pesquisa */
@@ -107,7 +110,7 @@ section button:hover {
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-    width: 80vw;
+    width: 75vw;
     /* Largura máxima da caixa de resultados */
     height: 45vh;
     /* Altura máxima da caixa de resultados */
@@ -119,13 +122,11 @@ section button:hover {
     /* Espaçamento interno */
     border-radius: 12px;
     /* Borda arredondada */
-    align-items: left;
-    /* Alinha os itens à esquerda */
 }
 
 /* Estiliza cada item de resultado */
 .dossie {
-    width: 84rem;
+    width: 70vw;
     background: #282e3c;
     /* Cor de fundo dos itens */
     padding-top: 2rem;
@@ -197,9 +198,7 @@ footer {
     width: 100%;
     /* Largura total da página */
     position: absolute;
-    /* Posiciona o rodapé */
     bottom: 0;
-    /* Alinha ao fundo da página */
 }
 
 @media (max-width: 768px) {

@@ -137,7 +137,7 @@ let dados = [
         alterEgo: "Kid Flash",
         nomeCivil: "Wally West",
         atividade: "Ativo",
-        organizacao: "Jovens Titãs, Equipe Flash",
+        organizacao: "Justiça Jovem, Equipe Flash, Jovens Titãs",
         cidade: "Central City, Keystone City",
         vilao: "Zoom",
         poder: "Velocidade sobre-humana, vibração molecular",
@@ -287,5 +287,18 @@ let dados = [
         fraqueza: "Ferimentos físicos, perda de entes queridos",
         risco: "1",
         analise: "Trauma de guerra, raiva, família"
+    },
+    {
+        imagem: "ajax.png",
+        alterEgo: "Caçador de Marte",
+        nomeCivil: "J'onn J'onzz",
+        atividade: "Ativo",
+        organizacao: "Liga da Justiça",
+        cidade: "Washington D.C., Marte",
+        vilao: "O Monitor",
+        poder: "Telepatia, telecinese, mudança de forma, super força, voo, invisibilidade",
+        fraqueza: "Fogo, magia marciana",
+        risco: "3",
+        analise: "Solitário, sábio, empático, nostálgico por Marte"
     }
 ];
